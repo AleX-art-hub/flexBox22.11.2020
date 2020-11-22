@@ -1,0 +1,55 @@
+/*
+1. для того что бы использовать flex нужен flex-контеинер display : flex
+2. длядочерних элементов нужен родитель flex
+flex-элемент блочный, он занимает всю ширину родителя
+*/
+.Cont {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifySpaceAround {
+  justify-content: space-around;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
+}
+
+.justifySpaceEvenly {
+  justify-content: space-evenly;
+}
+.justifySpaceStretch {
+  justify-content: stretch;
+}
+.flexContainerStyle {
+  background-color: dodgerblue;
+}
+
+.flexDirection {
+  flex-direction: row;
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: row;*/
+  /*flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+}
+
+.flexBoomStyle {
+  width: 200px;
+  height: 100px;
+  background-color: darkblue;
+  box-sizing: border-box;
+  border: 2px solid red;
+  color: white;
+}
